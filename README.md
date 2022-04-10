@@ -1,16 +1,11 @@
-# finbitbybit
+# Farm Buddy
+Farm buddy the most important being buddy which takes into account several factors such as availability of water, soil fertility, protecting crops from rodents, timely use of pesticides & other.
+## Technology used
+1. Flutter
+2. Flask
+3. Machine Leaarning
 
-A new Flutter project.
+Backend of this project can be found on the server branch.
+## The problem Farm Buddy solves
+The emerging concept of smart farming makes agriculture more efficient and effective with the help of high-precision algorithms. Farm buddy allows the users to estimate whether the use of pesticides will damage their crop or not. Farm buddy also gives users important information like the weather, soil types, and tips for good farming.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
