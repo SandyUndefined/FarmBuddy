@@ -26,6 +26,7 @@ def predict():
                             int(request.args['i']),
                             int(request.args['l']),
                             int(request.args['m']),
+                            int(request.args['j']),
                            ]])
     return flask.jsonify(str(predict)[1])
 
