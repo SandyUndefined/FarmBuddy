@@ -14,5 +14,5 @@ The emerging concept of smart farming makes agriculture more efficient and effec
 
 ## Demo Link 
 
-    [Farm buddy](https://drive.google.com/file/d/1l5jenCmk0Gp_eze82gbxcLMUBCX0RPfC/view?usp=sharing)
+[Farm buddy](https://drive.google.com/file/d/1l5jenCmk0Gp_eze82gbxcLMUBCX0RPfC/view?usp=sharing)
 
