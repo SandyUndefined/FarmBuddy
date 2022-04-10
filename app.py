@@ -15,7 +15,7 @@ def home():
 def predict():
     model = joblib.load('lgbm.ml')
     # model.predict([[188,1,1,0,0.0,0,1,0,0,0,1,0]])
-    predict = model.predict([[int(request.args['InsectCount']),
+    predict = model.predict([[int(request.args['Estimated_Insects_Count']),
                             int(request.args['CropType']),
                             int(request.args['SoilType']),
                             int(request.args['NDosesWeek']),
