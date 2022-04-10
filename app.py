@@ -16,17 +16,17 @@ def predict():
     model = joblib.load('lgbm.ml')
     # model.predict([[188,1,1,0,0.0,0,1,0,0,0,1,0]])
     predict = model.predict([[int(request.args['a']),
-                            int(request.args['CropType']),
-                            int(request.args['SoilType']),
-                            int(request.args['NDosesWeek']),
-                            float(request.args['NWeeksUsed']),
-                            int(request.args['NWeeksQuit']),
-                            int(request.args['Pest1']),
-                            int(request.args['Pest2']),
-                            int(request.args['Pest3']),
-                            int(request.args['Season1']),
-                            int(request.args['Season2']),
-                            int(request.args['Season3']),
+                            int(request.args['b']),
+                            int(request.args['c']),
+                            int(request.args['d']),
+                            float(request.args['e']),
+                            int(request.args['f']),
+                            int(request.args['g']),
+                            int(request.args['h']),
+                            int(request.args['i']),
+                            int(request.args['j']),
+                            int(request.args['l']),
+                            int(request.args['m']),
                            ]])
     return flask.jsonify(str(predict)[1])
 
